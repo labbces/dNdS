@@ -1,0 +1,28 @@
+__default__:
+  mem: "4G"          # Memória necessária por job (por padrão)
+  threads: 1         # Número de CPUs necessárias por job (por padrão)
+
+mafft:
+  mem: "4G"          
+  threads: 2        
+
+pal2nal:
+  mem: "4G"          
+  threads: 1         
+
+codeml:
+  mem: "4G"          
+  threads: 1         
+
+merge_omegas:
+  mem: "20G"         
+  threads: 1         
+
+make_plots:
+  mem: "8G"         
+  threads: 1        
+
+
+# make_plots ou make_dnds_plots?
+# merge_omegas ou dn.ds_merge_tables?
+# mafft ou mafft_alignment ?
